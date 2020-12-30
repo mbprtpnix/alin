@@ -1,0 +1,2 @@
+# alin
+archlinux install notes
