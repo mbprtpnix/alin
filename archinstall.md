@@ -29,6 +29,9 @@ pacman -S reflector
 ```
 reflector --verbose --latest 5 --age 24 --sort rate --save /etc/pacman.d/mirrorlist
 ```
+```
+sudo reflector --verbose --latest 20 --age 6 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+```
 ### verify disks
 ```
 lsblk
