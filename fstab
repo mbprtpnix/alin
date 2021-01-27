@@ -1,0 +1,9 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/mapper/LVM-ROOT LABEL=ROOT
+UUID=801fd2d5-d483-405e-a06f-bf42bf9c6afd	/         	ext4      	defaults,noatime,discard	0 1
+
+# /dev/sda1 LABEL=EFI
+UUID=951C-BE42      				/boot/efi 	vfat      	defaults,noatime,discard	0 2
