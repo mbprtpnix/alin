@@ -123,6 +123,9 @@ echo FONT=sun12x22 > /etc/vconsole.conf
 ```
 ln -sf /usr/share/zoneinfo/Europe/Bucharest /etc/localtime
 ```
+```
+ln -svf /usr/share/zoneinfo/$(tzselect | tail -1) /etc/localtime
+```
 ### set hostname
 ```
 echo archlinux-pc > /etc/hostname
